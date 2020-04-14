@@ -46,7 +46,7 @@ while run:
       neg = 1
       if jumpCount < 0:
         neg = -1
-      # TODO: Stop jumping from leaving the screen
+      # TODO: Stop jumping from leaving the screen maybe
       y -= (jumpCount ** 2) / 2 * neg
       jumpCount -= 1
     else:
